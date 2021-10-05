@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background-image: url('https://images.unsplash.com/photo-1562009313-2dc966f71c3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80');
+    background-size: cover;
+    height: 100vh; 
+    background-position: top; 
+}
+
+main {
+    padding: 25px;
+
+}
+
+.SearchBox {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.SearchBox .SearchBar {
+    padding: 12px;
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+
+    background-color: rgba(225, 225, 210 0.9);
+    font-size: 18px;
+}
+
+.SearchBox .SearchBar:focus {
+    background-color: #f1f1f1
+}
+
+
+.LocationBox .location {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500px;
+    color: #f1f1f1;
+    text-shadow: 3px 3px rgba(50, 50,  700);
+}
+
+.LocationBox .Date {
+    text-align: center;
+    font-size: 20px;
+    color: #f1f1f1;
+    font-style: italic;
+    text-shadow: 3px 3px rgba(50, 50, 70, );
+}
+
+.WeatherBox .Temp {
+    text-align: center;
+    margin: 20px;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+    color: #fff;
+    background-color: rgba(285, 285, 285, 0.2);
+    padding: 15px 25px;
+    font-size: 90px;
+    font-weight: 800;
+   
+    width: 260px;
+   
+
+    
+    border-radius: 8px;
+    margin: 30px auto;
+
+}
+
+.WeatherBox .Latitude {
+    text-align: center;
+
+}
+
+.WeatherBox .weather {
+    text-align: center;
+    color: #fff ; 
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px rgba(50, 50,  700);
+}
+
+.WeatherBox .tempMinMax {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;  
+}
+
+.pressHum {
+    display: flex;
+    
+}
+
+ .humidity {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;  
+    margin-top: 10px;
+    text-shadow: 3px 3px rgba(50, 50,  700);
+
+}
+
+ .pressure {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff; 
+    margin-top: 10px; 
+    text-shadow: 3px 3px rgba(50, 50,  700); 
+}
+
+
+
+
